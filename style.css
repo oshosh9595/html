@@ -1,0 +1,138 @@
+* {
+    font-family: '맑은고딕';
+    margin: 5px;
+}
+
+header, footer {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(151, 228, 151);
+    text-align: center;
+}
+
+header {
+    height: 150px;
+}
+
+header > div{
+    float: left;
+    color: white;
+}
+
+header > div > h1 {
+    padding-top: 20px;
+} 
+
+header > div > p {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+} 
+
+footer {
+    clear: both;
+}
+
+nav {
+    width: 100%;
+    height: 30px;
+    background-color: aquamarine;
+    font-weight: bold;
+    clear: both;
+}
+
+nav > a {
+    display: inline-block;
+    height: 30px;
+    padding: 5px;
+    margin: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: green;
+}
+
+section {
+    width: 49%;
+    height: auto;
+    display: block;
+    border-bottom: 1px dotted rgb(185, 162, 162);
+    /* float: left; */
+}
+
+.c1 {
+    color: black;
+    padding: 5px;
+    border: solid 2px;
+    border-width: 0px 0px 0px 10px;
+    font-size: 20px;
+}
+#p1 {
+    border-color: red;    
+}
+
+#p2 {
+    border-color: yellow;    
+}
+
+#p3 {
+    border-color: blue;    
+}
+
+#p4 {
+    border-color: blueviolet;    
+}
+
+#s4 {
+    color: green;
+}
+
+#s4 p {
+    padding-left: 25px;
+}
+
+ol {
+    list-style-type: none;
+    text-align: left;
+    padding: 5px;
+}
+
+ul {
+    text-align: left;
+    padding: 25px;
+}
+
+li {
+    display: block;
+    vertical-align: auto;
+}
+
+/* table 영역 */
+
+
+table {
+    width: 70%;
+    border: solid 1px black;
+    border-collapse: collapse;   /* 중복 되는 표와 셀의 테두리를 한줄로만든다.*/
+    margin: 20px;
+}
+
+td, th {
+    border: solid 1px rgb(92, 112, 21);
+    padding: 10px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(245, 166, 166);
+}
+
+/*caption {
+    padding-bottom: 20px;
+}*/
